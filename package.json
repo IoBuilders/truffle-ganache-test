@@ -1,0 +1,35 @@
+{
+  "name": "truffle-ganache-test",
+  "version": "1.0.0",
+  "description": "Starts ganache-cli before executing truffle test and stops it afterwards",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "solidity",
+    "truffle",
+    "ganache",
+    "plugin",
+    "test",
+    "buidl"
+  ],
+  "author": "tech@io.builders",
+  "license": "Apache-2.0",
+  "peerDependencies": {
+    "ganache-core": "2.x"
+  },
+  "dependencies": {
+    "npm-which": "^3.0.1",
+    "portscanner": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
