@@ -17,6 +17,10 @@
   ],
   "author": "tech@io.builders",
   "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/IoBuilders/truffle-ganache-test/issues"
+  },
+  "homepage": "https://github.com/IoBuilders/truffle-ganache-test#readme",
   "peerDependencies": {
     "ganache-core": "2.x"
   },
