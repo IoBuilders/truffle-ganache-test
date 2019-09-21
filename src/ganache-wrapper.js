@@ -18,8 +18,6 @@ class GanacheWrapper {
   }
 
   async start (config) {
-    console.log(JSON.stringify(config))
-
     this.server = ganache.server(config)
     this.server.listen(this.port, this.hostname, function (err) {
       if (err) {

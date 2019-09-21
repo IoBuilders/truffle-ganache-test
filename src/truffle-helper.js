@@ -12,7 +12,7 @@ async function executeTest (testFiles) {
     })
 
     truffleTest.stderr.on('data', (data) => {
-      const msg = `Error while running truffleHelper test: ${data}`
+      const msg = `Error while running truffle test: ${data}`
       console.error(msg)
       reject(new Error(msg))
     })
