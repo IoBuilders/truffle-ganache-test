@@ -1,6 +1,6 @@
 {
   "name": "truffle-ganache-test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Starts ganache-core before executing truffle test and stops it afterwards",
   "main": "src/index.js",
   "scripts": {
